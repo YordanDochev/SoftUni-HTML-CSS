@@ -1,1 +1,36 @@
-/* TODO: style the html */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+html{
+    font: 18px/1.5 "Verdana", "Geneva", "Tahoma", sans-serif;
+}
+
+body{
+    font: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+
+ul.check li::before{
+    font-family: "Font Awesome 6 Free";
+    content: '\f14a';
+    font-size: 25px;
+    color: #2fcc71;
+    padding-right: 0.5em;
+}
+
+ul.star li::before{
+    font-family: "Font Awesome 6 Free";
+    content: '\f005';
+    font-size: 25px;
+    color: coral;
+    padding-right: 0.5em;
+}
+
+ul.contact i{
+    font-size: 25px;
+    color: #3498da;
+    padding-right: 0.5em;
+}

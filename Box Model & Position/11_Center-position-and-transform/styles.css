@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font: 16px/1.2 Georgia, serif
+}
+
+body{
+    font:inherit;
+    background-color: rgb(238, 238, 238);
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    width: 28em;
+    background-color: (255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0.5em 0.5em rgb(0,0,0,0.2);
+    border-radius: 0.4em;
+    overflow: hidden;
+}
+
+.content{
+    padding: 1.2em;
+}
+
+.content p {
+    margin-top: 0.5em;
+    margin-bottom: 1em
+}
+
+.content a{
+    background-color: rgb(0, 153, 0);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    float: right;
+    color: #fff;
+    border-radius: 0.2em;
+}

@@ -1,1 +1,20 @@
-/* TODO: style the html */
+section{
+    position: absolute;
+    inset: 250px 200px;
+}
+
+h3{
+    font-size: 16px;
+    margin: 0;
+}
+
+span{
+    padding-left: 3px;
+    color: gray;
+    font-size: 14px;
+}
+
+div{
+    position: relative;
+    inset: -50px 10px;
+}

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    display: flex;
+    background-color: #ddd;
+    justify-content: center;
+}
+
+.gallery{
+    max-width: 50em;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    list-style: none outside;
+    border: 5px solid black;
+    padding: 1em;
+    flex: 0 0 30%;
+    background-color: #fff;
+    box-shadow: 
+        0 0 1em 0 rgb(0, 0 , 0, 0.4),
+        0 0 1em 0 rgb(0, 0 , 0, 0.4) inset;
+}

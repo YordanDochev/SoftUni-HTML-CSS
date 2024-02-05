@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.site-section{
+    max-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+article > h2 {
+    padding-bottom: 0.5em;
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+section article {
+    flex: 0 0 200px;
+}

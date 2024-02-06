@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    flex: 0 1 400px;
+    background-color: #fff;
+    border-radius: 0.4em;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.4);
+    padding: 1em 1em 2em 1em;
+}
+
+.card h4{
+    padding-bottom: 0.5em;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

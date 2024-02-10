@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 16px/1.5 'Agbalumo', sans-serif;
+}
+
+
+.site-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 0.3em 0;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1.0em;
+}
+
+.site-header{
+    background-color: #d4ebeb;
+    text-align: center;
+    padding: 1em 2em 0em 1em;
+}
+
+.site-header h2,
+.site-header p{
+    border-bottom: 2px solid black;
+}
+
+
+.site-main{
+    display: flex;
+    gap: 2em;
+    padding: 2em 2em 5em 1em;
+}
+
+.site-main .card{
+    flex:1 0 350px;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+article p{
+    padding-right: 2em;
+}
+
+.card p {
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+.site-main p {
+    text-indent: 2em;
+    padding-top: 1.5em;
+}
+
+.site-footer{
+    background-color: #d4ebeb;
+    padding: 1em 0em 1em 2em;
+    position: relative;
+}
+
+.outer{
+    background-color: black;
+    color: #fff;
+    width: 450px;
+    text-align: center;
+    padding: 0.2em;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.inner span{
+    font-weight: bold;
+}
+
+.inner p {
+    padding-bottom: 0.9em;
+}

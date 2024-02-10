@@ -1,0 +1,121 @@
+@media screen and (max-width:600px) {
+
+    html {
+        font-size: 0.9em;
+    }
+
+    .parallax-window {
+        height: 130px;
+    }
+
+    .tm-cta-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .tm-gallery-page {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tm-header-inner {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .tm-nav {
+        margin-top: 20px;
+    }
+
+    .tm-gallery {
+        margin-bottom: 2em;
+        margin-left: 0;
+    }
+
+    .row {
+        margin-right: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .tm-description-figure {
+        width: 100%;
+    }
+
+    .tm-section-title {
+        margin: 20px 30px;
+        font-size: 2.5em;
+    }
+
+
+    p.text-center{
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
+    .tm-welcome-section {
+        margin: 20px auto;
+    }
+
+    .tm-gallery-title {
+        text-align: center;
+    }
+
+    .tm-gallery-img {
+        margin-bottom: 10px;
+    }
+
+    .tm-gallery-price{
+        margin-bottom: 40px;
+
+    }
+
+    .tm-gallery-description{
+        margin-bottom: 8px;
+    }
+
+    .col-lg-3,
+    .col-md-4,
+    .col-sm-6 {
+        padding: 0;
+    }
+
+    .col-md-6 {
+        padding-right: 0;
+    }
+
+    .tm-site-logo {
+        float: left;
+        width: 80px;
+    }
+
+    .tm-site-title {
+        padding-left: 15px;
+    }
+
+    .tm-gallery p{
+        line-height:1.5;
+    }
+
+    .tm-description-box{
+        padding: 0 2.5em 1em 2.5em;
+    }
+
+    .tm-description-box > .tm-gallery-title{
+        text-align: left;
+        font-size: 1.5em;
+    }
+    .tm-description-figure>.img-fluid{
+        padding: 0 2em;
+    }
+    .tm-footer{
+        margin-top: 0;
+    }
+}

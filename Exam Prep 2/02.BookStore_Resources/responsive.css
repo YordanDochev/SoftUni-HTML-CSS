@@ -1,0 +1,139 @@
+@media (max-width:600px) {
+    .home-navbar1 {
+        display: none;
+    }
+
+    .home-header {
+        padding-top: 0;
+    }
+
+    .home-navbar {
+        position: static;
+    }
+
+    .section-container {
+        padding-top: 0px;
+    }
+
+    .home-container {
+        padding-top: 0;
+    }
+
+    .section-heading-text {
+        font-size: 21px;
+        margin-bottom: 23px;
+        line-height: 1;
+    }
+
+    .section-heading-text1 {
+        font-size: 12px;
+    }
+
+    .section-heading-section-heading {
+        margin-bottom: 40px;
+        padding-top: 53px;
+    }
+
+    .home-cards-container {
+        grid-gap: 15px;
+        justify-content: space-evenly;
+        margin-bottom: 71px;
+    }
+
+    .category-card-category-card {
+        flex: 1 1 45%;
+    }
+
+    .category-card-image {
+        width: 100%;
+    }
+
+    .max-width-container {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .category-card-text {
+        font-size: 11px;
+    }
+    
+    .home-full-width-banner{
+        flex-direction: column;
+    }
+
+    .home-left4{
+        padding: 30px 0;
+    }
+    
+    .home-text30{
+        font-size: 12px;
+        display: block;
+        width: 100%;
+        padding: 0 4px;
+    }
+
+    .home-content{
+        margin-bottom: 10px;
+    }
+
+    .home-image6 {
+        width: 100%;
+    }
+
+    .home-text23{
+        font-size: 12px;
+        line-height: 1.8;
+        text-indent: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .home-container07 {
+        margin-top: 60px;
+    }
+
+    .blog-post-card-text{
+        font-size: 16px;
+    }
+
+    .blog-post-card-text1 {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .blog-post-card-container {
+        padding-top: 15px;
+    }
+
+    .button{
+        font-size: 14px;
+        padding: 8px 15px;
+        
+    }
+
+    .home-text29 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .home-text31 {
+        font-size: 12px;
+    }
+
+    .home-main {
+        padding-bottom: 40px;
+    }
+
+    .home-footer1{
+        flex-direction: column;
+        padding: 35px 0px 10px 10px;
+    }
+
+    .home-container09{
+        order: 1000;
+    }
+
+    .home-links-container{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
